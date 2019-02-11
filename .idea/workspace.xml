@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d09b693-3085-498e-9f75-e1223b528274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gar-search-klant1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gar-search-klant2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,35 +15,36 @@
     <session id="1924784099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="php" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="PHP" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1976" />
-          <entry key="txt" value="41" />
+          <entry key="php" value="2233" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1975" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="PHP" value="2232" />
+          <entry key="PLAIN_TEXT" value="74" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -81,17 +82,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gar-read-klant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="510">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="12" selection-end-line="30" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
+        <entry file="file://$PROJECT_DIR$/gar-search-klant2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -100,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/gar-connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/gar-create-klant2.php" />
         <option value="$PROJECT_DIR$/gar-read-klant.php" />
         <option value="$PROJECT_DIR$/gar-search-klant1.php" />
+        <option value="$PROJECT_DIR$/gar-search-klant2.php" />
       </list>
     </option>
   </component>
@@ -144,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +203,11 @@
       <workItem from="1549369176907" duration="1185000" />
       <workItem from="1549455777112" duration="28000" />
       <workItem from="1549461697497" duration="997000" />
-      <workItem from="1549463365792" duration="3647000" />
+      <workItem from="1549463365792" duration="4508000" />
+      <workItem from="1549528207191" duration="26000" />
+      <workItem from="1549547262440" duration="660000" />
+      <workItem from="1549618266450" duration="41000" />
+      <workItem from="1549880468247" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="gar-read-klant toegevoegd">
       <created>1549466626590</created>
@@ -208,17 +223,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549466708195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gar-search-klant toegevoegd">
+      <created>1549467144467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549467144467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8576000" />
+    <option name="totallyTimeSpent" value="12327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,7 +270,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gar-read-klant toegevoegd" />
     <MESSAGE value="gar-read-klant fout verbeterd" />
-    <option name="LAST_COMMIT_MESSAGE" value="gar-read-klant fout verbeterd" />
+    <MESSAGE value="gar-search-klant toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="gar-search-klant toegevoegd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gar-menu.php">
@@ -268,7 +291,7 @@
     <entry file="file://$PROJECT_DIR$/gar-connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -279,17 +302,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gar-read-klant.php">
+    <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
+    <entry file="file://$PROJECT_DIR$/gar-read-klant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="12" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gar-search-klant2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
