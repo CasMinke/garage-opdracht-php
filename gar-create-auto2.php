@@ -14,20 +14,19 @@
 $autokenteken            = NULL;
 $automerk          = $_POST["automerkvak"];
 $autotype         = $_POST["autotypevak"];
-$autokmafstand      = $_POST["autokmafstandvak"];
+$autokmstand      = $_POST["autokmstandvak"];
 $klantid        = $_POST["klantidvak"];
 
 require_once "gar-connect.php";
 
-$sql = $conn->prepare("insert into auto values (:autokenteken, :automerk, :autotype, :autokmafstand, :klantid)");
+$sql = $conn->prepare("insert into auto values (:autokenteken, :automerk, :autotype, :autokmstand, :klantid)");
 
-$sql->bindParam(":autokenteken",$autokenteken);
-$sql->bindParam(":automerk",$automerk);
-$sql->bindParam(":autotype",$autotype);
-$sql->bindParam(":autokmafstand",$autokmafstand);
-$sql->bindParam(":klantid",$klantid);
-
-$sql->execute();
+$sql-> execute(["autokenteken"           => $autokenteken,
+    "automerk"              => $automerk,
+    "autotype"             => $autotype,
+    "autokmstand"          => $autokmstand,
+    "klantid"             => $klantid
+]);
 
 echo "de auto is toegevoegd<br>";
 echo "<a href='gar-menu.php'> terug naar het menu </a>";

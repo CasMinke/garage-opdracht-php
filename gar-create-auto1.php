@@ -12,7 +12,7 @@
 <form action="gar-create-auto2.php" method="post">
     automerk:       <input type="text" name="automerkvak">    <br>
     autotype:       <input type="text" name="autotypevak">   <br>
-    autokmafstand:  <input type="text" name="autokmafstandvak"><br>
+    autokmstand:    <input type="text" name="autokmstandvak"><br>
     klantid:        <input type="text" name="klantidvak">  <br>
     <input type="submit">
 </form>

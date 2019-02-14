@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d09b693-3085-498e-9f75-e1223b528274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gar-create-auto1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gar-create-klant1.php" beforeDir="false" afterPath="$PROJECT_DIR$/gar-create-klant1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gar-create-auto1.php" beforeDir="false" afterPath="$PROJECT_DIR$/gar-create-auto1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gar-create-auto2.php" beforeDir="false" afterPath="$PROJECT_DIR$/gar-create-auto2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,26 +29,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="16" />
+          <entry key="php" value="18" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="16" />
+          <entry key="PHP" value="18" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5787" />
-          <entry key="txt" value="191" />
+          <entry key="php" value="5847" />
+          <entry key="txt" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5768" />
-          <entry key="PLAIN_TEXT" value="191" />
+          <entry key="PHP" value="5828" />
+          <entry key="PLAIN_TEXT" value="256" />
           <entry key="SQL" value="19" />
         </counts>
       </usages-collector>
@@ -75,19 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gar-search-klant2.php">
+        <entry file="file://$PROJECT_DIR$/gar-create-klant2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gar-update-klant2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+            <state>
+              <caret selection-end-line="36" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -128,11 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gar-create-auto1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gar-create-auto2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -154,6 +154,13 @@
       <find>klantadres</find>
       <find>klantpostcode</find>
       <find>klantplaats</find>
+      <find>klant</find>
+      <find>id</find>
+      <find>naam</find>
+      <find>adres</find>
+      <find>postcode</find>
+      <find>autoplaats</find>
+      <find>kmafstand</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,6 +182,7 @@
         <option value="$PROJECT_DIR$/gar-delete-klant3.php" />
         <option value="$PROJECT_DIR$/gar-create-klant1.php" />
         <option value="$PROJECT_DIR$/gar-create-auto1.php" />
+        <option value="$PROJECT_DIR$/gar-create-auto2.php" />
       </list>
     </option>
   </component>
@@ -258,7 +266,7 @@
       <workItem from="1550056722190" duration="68000" />
       <workItem from="1550065809996" duration="5931000" />
       <workItem from="1550133404089" duration="314000" />
-      <workItem from="1550145223314" duration="2874000" />
+      <workItem from="1550145223314" duration="3751000" />
     </task>
     <task id="LOCAL-00001" summary="gar-read-klant toegevoegd">
       <created>1549466626590</created>
@@ -330,11 +338,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550147542947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gar-create-auto1.php aangemaakt en gar-create-klant1.php een : toegevoegd">
+      <created>1550148229998</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550148229998</updated>
+    </task>
+    <task id="LOCAL-00012" summary="gar-create-auto2.php aangemaakt">
+      <created>1550148521499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550148521499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26948000" />
+    <option name="totallyTimeSpent" value="27825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -378,7 +400,9 @@
     <MESSAGE value="gar-delete-klant1.php aangemaakt" />
     <MESSAGE value="gar-delete-klant2.php aangemaakt" />
     <MESSAGE value="gar-delete-klant3.php aangemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="gar-delete-klant3.php aangemaakt" />
+    <MESSAGE value="gar-create-auto1.php aangemaakt en gar-create-klant1.php een : toegevoegd" />
+    <MESSAGE value="gar-create-auto2.php aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="gar-create-auto2.php aangemaakt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
@@ -397,13 +421,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../layout/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gar-create-klant2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gar-read-klant.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -475,10 +492,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gar-create-klant2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gar-create-auto1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gar-create-auto2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
