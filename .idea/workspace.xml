@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d09b693-3085-498e-9f75-e1223b528274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gar-delete-klant1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gar-delete-klant2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,26 +28,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="11" />
+          <entry key="php" value="12" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="11" />
+          <entry key="PHP" value="12" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4248" />
-          <entry key="txt" value="175" />
+          <entry key="php" value="5236" />
+          <entry key="txt" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4229" />
-          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="PHP" value="5217" />
+          <entry key="PLAIN_TEXT" value="189" />
           <entry key="SQL" value="19" />
         </counts>
       </usages-collector>
@@ -118,11 +118,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gar-delete-klant1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gar-delete-klant2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -154,6 +163,7 @@
         <option value="$PROJECT_DIR$/gar-update-klant2.php" />
         <option value="$PROJECT_DIR$/gar-update-klant3.php" />
         <option value="$PROJECT_DIR$/gar-delete-klant1.php" />
+        <option value="$PROJECT_DIR$/gar-delete-klant2.php" />
       </list>
     </option>
   </component>
@@ -237,7 +247,7 @@
       <workItem from="1550056722190" duration="68000" />
       <workItem from="1550065809996" duration="5931000" />
       <workItem from="1550133404089" duration="314000" />
-      <workItem from="1550145223314" duration="406000" />
+      <workItem from="1550145223314" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="gar-read-klant toegevoegd">
       <created>1549466626590</created>
@@ -288,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550067781217</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gar-delete-klant1.php aangemaakt">
+      <created>1550145773255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550145773255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24480000" />
+    <option name="totallyTimeSpent" value="25827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -333,7 +350,8 @@
     <MESSAGE value="gar-update-klant1 toegevoegd" />
     <MESSAGE value="gar-update-klant1 fout aangepast&#10;gar-update-klant2 aangemaakt" />
     <MESSAGE value="gar-klant-update3.php aangemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="gar-klant-update3.php aangemaakt" />
+    <MESSAGE value="gar-delete-klant1.php aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="gar-delete-klant1.php aangemaakt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gar-search-klant1.php">
@@ -413,6 +431,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gar-delete-klant2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
