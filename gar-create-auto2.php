@@ -11,7 +11,7 @@
     auto in de database garage.
 </p>
 <?php
-$autokenteken            = NULL;
+$autokenteken            = $_POST["autokentekenvak"];
 $automerk          = $_POST["automerkvak"];
 $autotype         = $_POST["autotypevak"];
 $autokmstand      = $_POST["autokmstandvak"];
@@ -21,7 +21,7 @@ require_once "gar-connect.php";
 
 $sql = $conn->prepare("insert into auto values (:autokenteken, :automerk, :autotype, :autokmstand, :klantid)");
 
-$sql-> execute(["autokenteken"           => $autokenteken,
+$sql-> execute(["autokenteken" => $autokenteken,
     "automerk"              => $automerk,
     "autotype"             => $autotype,
     "autokmstand"          => $autokmstand,
