@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage menu</h1>
 <h2>klant</h2>
 <ul>
@@ -23,5 +24,6 @@
     <li><a href="gar-update-auto1.php">update</a></li>
     <li><a href="gar-delete-auto1.php">delete</a></li>
 </ul>
+</div>
 </body>
 </html>

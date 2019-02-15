@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage zoek op klantid 1</h1>
 <p>
     dit formulier zoekt een klant op uit de tabel klanten van database garage.
@@ -15,5 +16,6 @@
     <input type="text" name="klantidvak"><br>
     <input type="submit">
 </form>
+</div>
 </body>
 </html>

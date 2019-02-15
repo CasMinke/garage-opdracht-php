@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage delete auto 1</h1>
 <p>dit formulier zoekt een auto van de database garage om het te kunnen verwijderen.</p>
 <form action="gar-delete-auto2.php" method="post">
@@ -13,5 +14,6 @@
     <input type="text" name="autokentekenvak"><br>
     <input type="submit">
 </form>
+</div>
 </body>
 </html>

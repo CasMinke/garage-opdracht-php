@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage update auto2</h1>
 <p>dit formulier wordt gebruikt om autogegevens te wijzigen in de tabel auto van de database garage.</p>
 <?php
@@ -36,5 +37,6 @@ foreach ($autos as $auto) {
 echo "<input type='submit'>";
 echo "</form>";
 ?>
+</div>
 </body>
 </html>

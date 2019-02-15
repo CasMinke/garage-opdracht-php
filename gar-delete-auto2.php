@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage delete auto 2</h1>
 <p>op autokenteken gegevens zoeken uit de tabel autos van de database garage zodat ze verwijderd kunnen worden.</p>
 <?php
@@ -37,5 +38,6 @@ echo "verwijder deze auto.<br>";
 echo "<input type='submit'>";
 echo "</form>";
 ?>
+</div>
 </body>
 </html>

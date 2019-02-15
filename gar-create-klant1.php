@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage create klant 1</h1>
 <p>
     dit formulier wordt gebruikt om klantgegevens in te voeren.
@@ -17,5 +18,6 @@
     klantplaats:    <input type="text" name="klantplaatsvak">  <br>
     <input type="submit">
 </form>
+</div>
 </body>
 </html>

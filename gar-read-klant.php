@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage read klant</h1>
 <p>
     dit zijn alle gegevens uit de
@@ -30,5 +31,6 @@ echo "<table>";
     echo "</table>";
     echo "<a href='gar-menu.php'> terug naar het menu </a>";
 ?>
+</div>
 </body>
 </html>

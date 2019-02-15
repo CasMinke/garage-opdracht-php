@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage update klant2</h1>
 <p>dit formulier wordt gebruikt om klantgegevens te wijzigen in de tabel klant van de database garage.</p>
 <?php
@@ -36,5 +37,6 @@ foreach ($klanten as $klant) {
 echo "<input type='submit'>";
 echo "</form>";
 ?>
+</div>
 </body>
 </html>

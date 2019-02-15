@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage update klant 3</h1>
 <p>klantgegevens wijzigen in de tabel klant van de database garage.</p>
 <?php
@@ -30,5 +31,6 @@ $sql->execute([
 echo "de klant is gewijzigd.<br>";
 echo "<a href='gar-menu.php'> terug naar het menu </a>";
 ?>
+</div>
 </body>
 </html>

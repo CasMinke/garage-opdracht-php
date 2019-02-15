@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage zoek op autokenteken 1</h1>
 <p>
     dit formulier zoekt een auto op uit de tabel autos van database garage.
@@ -15,5 +16,6 @@
     <input type="text" name="autokentekenvak"><br>
     <input type="submit">
 </form>
+</div>
 </body>
 </html>

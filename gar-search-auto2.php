@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage zoek op autokenteken 2</h1>
 <p>op autokenteken gegevens zoeken uit de tabel autos van de database garage.</p>
 <?php
@@ -29,5 +30,6 @@ foreach ($autos as $auto){
 echo "</table>";
 echo "<a href='gar-menu.php'> terug naar het menu </a>";
 ?>
+</div>
 </body>
 </html>

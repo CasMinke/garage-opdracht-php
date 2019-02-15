@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage delete klant 2</h1>
 <p>op klantid gegevens zoeken uit de tabel klanten van de database garage zodat ze verwijderd kunnen worden.</p>
 <?php
@@ -37,5 +38,6 @@ echo "verwijder deze klant.<br>";
 echo "<input type='submit'>";
 echo "</form>";
 ?>
+</div>
 </body>
 </html>

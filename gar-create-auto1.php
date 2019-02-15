@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage create auto 1</h1>
 <p>
     dit formulier wordt gebruikt om autogegevens in te voeren.
@@ -18,5 +19,6 @@
     klantid:        <input type="text" name="klantidvak">  <br>
     <input type="submit">
 </form>
+</div>
 </body>
 </html>

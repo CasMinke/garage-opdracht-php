@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage delete auto 3</h1>
 <p>op autokenteken gegevens zoeken uit de tabel autos van de database garage zodat ze verwijderd kunnen worden.</p>
 <?php
@@ -27,5 +28,6 @@ else{
 
 echo "<a href='gar-menu.php'>terug naar het menu.</a>";
 ?>
+</div>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="box">
 <h1>garage create klant 2</h1>
 <p>
     een klant toevoegen aan de tabel
@@ -33,6 +34,6 @@ $sql->execute();
 echo "de klant is toegevoegd<br>";
 echo "<a href='gar-menu.php'> terug naar het menu </a>";
 ?>
-
+</div>
 </body>
 </html>
