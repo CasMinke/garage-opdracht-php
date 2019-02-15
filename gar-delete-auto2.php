@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-delete-auto2.php</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <h1>garage delete auto 2</h1>

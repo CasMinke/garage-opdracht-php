@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-read-klant.php</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <h1>garage read klant</h1>

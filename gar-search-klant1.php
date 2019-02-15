@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-search-klant1.php</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <h1>garage zoek op klantid 1</h1>
