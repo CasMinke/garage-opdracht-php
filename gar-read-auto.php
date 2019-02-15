@@ -12,7 +12,7 @@
 </p>
 <?php
 require_once "gar-connect.php";
-$autos = $conn->prepare("select autokenteken, automerk, autotype, autokmstand, klantid from auto");
+$autos = $conn->prepare("select autokenteken, automerk, autotype, autokmstand, klant.klantnaam from auto inner join klant on auto.klantid = klant.klantid");
 
 $autos->execute();
 
@@ -23,7 +23,7 @@ foreach ($autos as $auto){
     echo "<td>" . $auto["automerk"]       . "</td>";
     echo "<td>" . $auto["autotype"]      . "</td>";
     echo "<td>" . $auto["autokmstand"]   . "</td>";
-    echo "<td>" . $auto["klantid"]     . "</td>";
+    echo "<td>" . $auto["klantnaam"]     . "</td>";
     echo "</tr>";
 }
 echo "</table>";
