@@ -1,5 +1,14 @@
 body {
   background-color: darkolivegreen;
 }
+body .box {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
