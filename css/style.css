@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://stmed.net/sites/default/files/ford-mustang-shelby-gt500-wallpapers-32172-4011651.jpg");
+  background-image: url("../afbeeldingen/background.jpg");
   background-size: cover;
 }
 body .box {
@@ -10,12 +10,19 @@ body .box {
   text-align: center;
   margin: auto;
   background-color: darkolivegreen;
+  font-family: Impact, fantasy;
 }
 body .box li {
   list-style-type: none;
   padding-right: 45px;
 }
 body .box li a {
+  transition: 1s;
+  color: black;
+  font-family: Impact, fantasy;
+  font-style: italic;
+}
+body .box li a:hover {
   color: lime;
 }
 
