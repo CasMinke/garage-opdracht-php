@@ -1,25 +1,28 @@
+$maincolor: darkolivegreen;
+$secondarycolor: black;
+$linkhovercolor: lime;
 body{
   background-image: url("../afbeeldingen/background.jpg");
   background-size: cover;
   .box{
     border-style: solid;
-    border-color: black;
+    border-color: $secondarycolor;
     border-radius: 50px;
     width: 50%;
     text-align: center;
     margin: auto;
-    background-color: darkolivegreen;
+    background-color: $maincolor;
     font-family: Impact,fantasy;
     li{
       list-style-type: none;
       padding-right: 45px;
       a{
         transition: 1s;
-        color: black;
+        color: $secondarycolor;
         font-family: Impact,fantasy;
         font-style: italic;
         &:hover {
-          color: lime;
+          color: $linkhovercolor;
         }
       }
     }

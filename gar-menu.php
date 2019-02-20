@@ -21,6 +21,7 @@
     <li><a href="gar-create-auto1.php">create</a></li>
     <li><a href="gar-read-auto.php">read</a></li>
     <li><a href="gar-search-auto1.php">zoeken op kenteken</a></li>
+    <li><a href="gar-search-auto3.php">zoeken op autotype</a></li>
     <li><a href="gar-update-auto1.php">update</a></li>
     <li><a href="gar-delete-auto1.php">delete</a></li>
 </ul>
