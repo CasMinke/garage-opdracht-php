@@ -13,18 +13,25 @@
 $autokenteken = $_POST["autokentekenvak"];
 
 require_once "gar-connect.php";
-$autos = $conn->prepare("select autokenteken, automerk, autotype, autokmstand, klantid from auto where autokenteken = :autokenteken");
+$autos = $conn->prepare("select autokenteken, automerk, autotype, autokmstand, klant.klantnaam from auto inner join klant where autokenteken = :autokenteken and auto.klantid = klant.klantid");
 
 $autos->execute(["autokenteken" => $autokenteken]);
 
 echo "<table>";
+echo "<tr>";
+echo "<td><u><b>kenteken:</b></u></td>";
+echo "<td><u><b>merk:</b></u></td>";
+echo "<td><u><b>type:</b></u></td>";
+echo "<td><u><b>kmstand:</b></u></td>";
+echo "<td><u><b>klantnaam:</b></u></td>";
+echo "</tr>";
 foreach ($autos as $auto){
     echo "<tr>";
     echo "<td>" . $auto["autokenteken"]         . "</td>";
     echo "<td>" . $auto["automerk"]       . "</td>";
     echo "<td>" . $auto["autotype"]      . "</td>";
     echo "<td>" . $auto["autokmstand"]   . "</td>";
-    echo "<td>" . $auto["klantid"]     . "</td>";
+    echo "<td>" . $auto["klantnaam"]     . "</td>";
     echo "</tr>";
 }
 echo "</table>";

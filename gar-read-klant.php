@@ -19,6 +19,13 @@ $klanten = $conn->prepare("select klantid, klantnaam, klantadres, klantpostcode,
 $klanten->execute();
 
 echo "<table>";
+echo "<tr>";
+echo "<td><u><b>id:</b></u></td>";
+echo "<td><u><b>naam:</b></u></td>";
+echo "<td><u><b>adres:</b></u></td>";
+echo "<td><u><b>postcode:</b></u></td>";
+echo "<td><u><b>plaats:</b></u></td>";
+echo "</tr>";
     foreach ($klanten as $klant){
         echo "<tr>";
         echo "<td>" . $klant["klantid"]         . "</td>";

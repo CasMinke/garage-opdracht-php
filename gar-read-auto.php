@@ -19,6 +19,13 @@ $autos = $conn->prepare("select autokenteken, automerk, autotype, autokmstand, k
 $autos->execute();
 
 echo "<table>";
+echo "<tr>";
+echo "<td><u><b>kenteken:</b></u></td>";
+echo "<td><u><b>merk:</b></u></td>";
+echo "<td><u><b>type:</b></u></td>";
+echo "<td><u><b>kmstand:</b></u></td>";
+echo "<td><u><b>klantnaam:</b></u></td>";
+echo "</tr>";
 foreach ($autos as $auto){
     echo "<tr>";
     echo "<td>" . $auto["autokenteken"]         . "</td>";

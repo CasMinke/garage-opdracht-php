@@ -13,6 +13,10 @@ body{
     margin: auto;
     background-color: $maincolor;
     font-family: Impact,fantasy;
+    table{
+      display: flex;
+      justify-content: center;
+    }
     li{
       list-style-type: none;
       padding-right: 45px;

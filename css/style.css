@@ -12,6 +12,10 @@ body .box {
   background-color: darkolivegreen;
   font-family: Impact, fantasy;
 }
+body .box table {
+  display: flex;
+  justify-content: center;
+}
 body .box li {
   list-style-type: none;
   padding-right: 45px;
