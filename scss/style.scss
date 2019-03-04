@@ -1,6 +1,8 @@
 $maincolor: darkolivegreen;
 $secondarycolor: black;
+$derdekleur: olivedrab;
 $linkhovercolor: lime;
+$tekststyle: impact,fantasy;
 body{
   background-image: url("../afbeeldingen/background.jpg");
   background-size: cover;
@@ -8,25 +10,35 @@ body{
     border-style: solid;
     border-color: $secondarycolor;
     border-radius: 50px;
-    width: 50%;
+    width: 30%;
     text-align: center;
     margin: auto;
     background-color: $maincolor;
-    font-family: Impact,fantasy;
+    font-family: $tekststyle;
     table{
       display: flex;
       justify-content: center;
     }
-    li{
-      list-style-type: none;
-      padding-right: 45px;
-      a{
-        transition: 1s;
-        color: $secondarycolor;
-        font-family: Impact,fantasy;
-        font-style: italic;
-        &:hover {
-          color: $linkhovercolor;
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      li {
+        background-color: $derdekleur;
+        border-style: solid;
+        border-color: $secondarycolor;
+        border-radius: 5px;
+        list-style-type: none;
+        width: 100px;
+        margin-left: 32%;
+        a {
+          transition: 1s;
+          color: $secondarycolor;
+          font-family: $tekststyle;
+          font-style: italic;
+          &:hover {
+            color: $linkhovercolor;
+          }
         }
       }
     }

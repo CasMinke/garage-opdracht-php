@@ -6,27 +6,37 @@ body .box {
   border-style: solid;
   border-color: black;
   border-radius: 50px;
-  width: 50%;
+  width: 30%;
   text-align: center;
   margin: auto;
   background-color: darkolivegreen;
-  font-family: Impact, fantasy;
+  font-family: impact, fantasy;
 }
 body .box table {
   display: flex;
   justify-content: center;
 }
-body .box li {
-  list-style-type: none;
-  padding-right: 45px;
+body .box ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-body .box li a {
+body .box ul li {
+  background-color: olivedrab;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  list-style-type: none;
+  width: 100px;
+  margin-left: 32%;
+}
+body .box ul li a {
   transition: 1s;
   color: black;
-  font-family: Impact, fantasy;
+  font-family: impact, fantasy;
   font-style: italic;
 }
-body .box li a:hover {
+body .box ul li a:hover {
   color: lime;
 }
 
